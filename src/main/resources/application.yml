@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/srija
-    username: root
-    password: Sreddy@2001
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:postgresql://ep-misty-mode-a5l4nn2q.us-east-2.aws.neon.tech/forumdb
+    username: forumdb_owner
+    password: 8dI1opaSHUFh
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update

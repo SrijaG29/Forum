@@ -13,7 +13,7 @@ public class QuestionsController {
         this.questionsService = questionsService;
     }
 
-    @PostMapping("/questions")
+    @PostMapping("/createquestions")
     public String createquestion(@RequestBody QuestionsrequestDto questions){
         return questionsService.createquestion(questions);
     }
